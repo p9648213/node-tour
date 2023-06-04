@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
-process.env.NODE_ENV = 'production';
-
 process.on('uncaughtException', (err) => {
   console.log('UNCAUGHT EXCEPTION! Shutting down...');
   console.log(err.name, err.message);
@@ -22,7 +20,7 @@ mongoose
   .then(() => {
     console.log('Mongodb is connected');
     const port = process.env.PORT || 3000;
-    const server = app.listen(port, 'localhost', () => {
+    const server = app.listen(port, '0.0.0.0', () => {
       console.log(`App running on port ${port}...`);
     });
 

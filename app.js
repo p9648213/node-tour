@@ -27,7 +27,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      'https://bored-gold-wombat.cyclic.app',
+      'https://next-tour-production.up.railway.app',
       'https://next-tour-kappa.vercel.app',
     ],
     credentials: true,
