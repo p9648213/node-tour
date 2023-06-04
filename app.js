@@ -26,10 +26,7 @@ const app = express();
 // Cors
 app.use(
   cors({
-    origin: [
-      'https://next-tour-production.up.railway.app',
-      'https://next-tour-kappa.vercel.app',
-    ],
+    origin: ['https://next-tour-kappa.vercel.app'],
     credentials: true,
   })
 );
@@ -96,6 +93,9 @@ app.use((req, res, next) => {
 });
 
 //3) Routes
+app.get('/', (req, res) => {
+  res.send('Welcome To Nodejs Tour API Project');
+});
 app.use('/api/v1/tours', toursRouter);
 app.use('/api/v1/users', userRouter);
 app.use('/api/v1/reviews', reviewsRouter);

@@ -26,7 +26,7 @@ const getCheckoutSession = catchAsync(async (req, res, next) => {
             name: `${tour.name} Tour`,
             description: tour.summary,
             images: [
-              `https://next-tour-production.up.railway.app/img/tours/${tour.imageCover}`,
+              `https://nodetour-1-t6280858.deta.app/img/tours/${tour.imageCover}`,
             ],
           },
           unit_amount: tour.price * 100,
