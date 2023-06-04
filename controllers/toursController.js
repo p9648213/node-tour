@@ -25,9 +25,6 @@ const uploadTourImages = upload.fields([
   { name: 'images', maxCount: 3 },
 ]);
 
-//upload.single('image') req.file
-//upload.array('images', 5) req.files
-
 const resizeTourImages = catchAsync(async (req, res, next) => {
   if (!req.files.imageCover || !req.files.images) {
     return next();
@@ -42,7 +39,7 @@ const resizeTourImages = catchAsync(async (req, res, next) => {
     .toFile(`public/img/tours/${imageCoverFilename}`);
   req.body.imageCover = imageCoverFilename;
 
-  //2) Images
+  //2) Tour Images
   req.body.images = [];
   await Promise.all(
     req.files.images.map(async (file, i) => {
@@ -184,6 +181,7 @@ const getMonthlyPlan = catchAsync(async (req, res) => {
   });
 });
 
+// Get tour by distance from lat to lng
 // /tours-within/400/center/34.111745,-118.113491/unit/mi
 const getToursWithin = catchAsync(async (req, res, next) => {
   const { distance, latlng, unit } = req.params;

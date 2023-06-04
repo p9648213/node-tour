@@ -38,10 +38,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //Set security HTTP header
 app.use(helmet.contentSecurityPolicy());
 
-//Development logging
-// if (process.env.NODE_ENV === 'development') {
-//   app.use(morgan('dev'));
-// }
+//Logging request
 app.use(morgan('dev'));
 
 // Limit requests from same API
@@ -89,10 +86,9 @@ app.use(
 //compress all the response
 app.use(compression());
 
-//Test middleware
+//Save request Time middleware
 app.use((req, res, next) => {
   req.requestTime = new Date().toISOString();
-  // console.log(req.cookies);
   next();
 });
 

@@ -1,15 +1,13 @@
 {
-  "name": "natours",
+  "name": "next-tour",
   "version": "1.0.0",
-  "description": "Learning node, express and mongoDB",
+  "description": "Nodejs Tour API Project",
   "main": "app.js",
   "scripts": {
-    "start": "node server.js",
+    "start:prod": "cross-env NODE_ENV=production nodemon server.js",
     "dev": "nodemon server.js",
-    "start:prod": "cross-env NODE_ENV=production X=23 nodemon server.js",
-    "debug": "ndb server.js",
-    "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js",
-    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
+    "start": "cross-env NODE_ENV=production node server.js",
+    "debug": "ndb server.js"
   },
   "author": "",
   "license": "ISC",

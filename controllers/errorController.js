@@ -43,12 +43,6 @@ const sendErrorDev = (err, req, res) => {
       stack: err.stack,
     });
   }
-  //RENDERED WEBSITE
-  console.error('ERROR ', err);
-  return res.status(err.statusCode).render('error', {
-    title: 'Something went wrong!',
-    msg: err.message,
-  });
 };
 
 const sendErrorProd = (err, req, res) => {
@@ -71,24 +65,6 @@ const sendErrorProd = (err, req, res) => {
       message: 'Something went wrong',
     });
   }
-
-  //RENDERED WEBSITE
-  //Operational, trusted error
-  if (err.isOperational) {
-    return res.status(err.statusCode).render('error', {
-      title: 'Something went wrong!',
-      msg: err.message,
-    });
-  }
-  //Programming or unknown error
-  //1) Log error
-  console.error('ERROR ', err);
-
-  //2) Send generic message
-  return res.status(err.statusCode).render('error', {
-    title: 'Something went wrong!',
-    msg: 'Please try again later',
-  });
 };
 
 const globalErrorHandler = (err, req, res, next) => {
@@ -118,6 +94,7 @@ const globalErrorHandler = (err, req, res, next) => {
     if (error.name === 'TokenExpiredError') {
       error = handleJWTExpiredError();
     }
+
     sendErrorProd(error, req, res);
   }
 };

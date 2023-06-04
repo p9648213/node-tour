@@ -69,7 +69,8 @@ const signup = catchAsync(async (req, res) => {
     role: req.body?.role,
   });
 
-  const url = `${process.env.CLIENT_URL}/user/myprofile`;
+  // Send Welcome Email
+  // const url = `${process.env.CLIENT_URL}/user/myprofile`;
   // await new Email(newUser, url).sendWelcome();
 
   createSendToken(newUser, 201, res);
@@ -142,41 +143,9 @@ const protect = catchAsync(async (req, res, next) => {
 
   //Grant access to protected route
   req.user = currentUser;
-  //Only for pub template
-  res.locals.user = currentUser;
+
   next();
 });
-
-//Only for randered pages
-const isLoggedIn = async (req, res, next) => {
-  if (req.cookies.jwt) {
-    try {
-      //1) verify token
-      const decoded = await verifyToken(
-        req.cookies.jwt,
-        process.env.JWT_SECRET
-      );
-
-      //1) Check if user still exists
-      const currentUser = await User.findById(decoded.id);
-      if (!currentUser) {
-        return next();
-      }
-
-      //3) Check if user changed password after the token was issued
-      if (currentUser.changePasswordAfter(decoded.iat)) {
-        return next();
-      }
-
-      //There is a logged in user
-      res.locals.user = currentUser;
-      return next();
-    } catch (err) {
-      return next();
-    }
-  }
-  next();
-};
 
 const restrictTo = (...roles) => {
   return (req, res, next) => {
@@ -203,10 +172,6 @@ const forgotPassword = catchAsync(async (req, res, next) => {
 
   //3) Send it to user's email
   try {
-    // const resetURL = `${req.protocol}://${req.get(
-    //   'host'
-    // )}/api/v1/users/resetPassword/${resetToken}`;
-
     const resetURL = `${process.env.CLIENT_URL}/reset-password/${resetToken}`;
 
     await new Email(user, resetURL).sendPasswordReset();
@@ -257,7 +222,6 @@ const resetPassword = catchAsync(async (req, res, next) => {
   await user.save();
 
   //4) Log the user in send JWT
-  // createSendToken(user, 200, res);
   res.status(200).json({
     status: 'success',
     message:
@@ -290,6 +254,5 @@ module.exports = {
   forgotPassword,
   resetPassword,
   updatePassword,
-  isLoggedIn,
   logout,
 };

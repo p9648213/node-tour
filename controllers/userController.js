@@ -5,15 +5,6 @@ const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 const factory = require('./handlerFactory');
 
-// const multerStorage = multer.diskStorage({
-//   destination: (req, file, cb) => {
-//     cb(null, 'public/img/users');
-//   },
-//   filename: (req, file, cb) => {
-//     const ext = file.mimetype.split('/')[1];
-//     cb(null, `user-${req.user.id}-${Date.now()}.${ext}`);
-//   },
-// });
 const multerStorage = multer.memoryStorage();
 
 const multerFilter = (req, file, cb) => {
@@ -72,7 +63,7 @@ const updateMe = catchAsync(async (req, res, next) => {
       )
     );
   }
-  //2) Filtered out unwanted fields nams that are not allowed to be updated
+  //2) Filtered out unwanted fields names that are not allowed to be updated
   // const filteredBody = filterObj(req.body, 'name', 'email', 'photo');
 
   const filteredBody = filterObj(req.body, 'name', 'email');
@@ -112,7 +103,6 @@ const createUser = (req, res) => {
 
 const getAllUser = factory.getAll(User);
 const getUser = factory.getOne(User);
-//Do NOT update passwords with this
 const updateUser = factory.updateOne(User);
 const deleteUser = factory.deleteOne(User);
 

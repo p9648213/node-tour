@@ -160,26 +160,6 @@ tourSchema.pre('save', function (next) {
   next();
 });
 
-// EMBEDDED USER INTO GUIDE - NOT A GOOD APPROACH
-// tourSchema.pre('save', async function (next) {
-//   const guidesPromises = this.guides.map((id) => {
-//     return User.findById(id);
-//   });
-//   this.guides = await Promise.all(guidesPromises);
-//   next();
-// });
-
-// tourSchema.pre('save', function (next) {
-//   console.log('Will save document...');
-//   next();
-// });
-
-// run after .save() and create()
-// tourSchema.post('save', function (doc, next) {
-//   console.log(doc);
-//   next();
-// });
-
 //QUERY MIDDLEWARE
 //run before await query
 tourSchema.pre(/^find/, function (next) {
@@ -209,7 +189,6 @@ tourSchema.pre('aggregate', function (next) {
     this.pipeline().unshift({ $match: { secretTour: { $ne: true } } });
   }
 
-  //console.log(this.pipeline());
   next();
 });
 
