@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Admin",
+    "email": "johndoe@example.com",
+    "role": "admin",
+    "photo": "user-admin.jpg"
+  },
+  {
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "role": "user",
+    "photo": "user-1.jpg"
+  },
+  {
+    "name": "Alex Johnson",
+    "email": "alexjohnson@example.com",
+    "role": "user",
+    "photo": "user-2.jpg"
+  },
+  {
+    "name": "Emily Davis",
+    "email": "emilydavis@example.com",
+    "role": "user",
+    "photo": "user-3.jpg"
+  },
+  {
+    "name": "Daniel Wilson",
+    "email": "danielwilson@example.com",
+    "role": "guide",
+    "photo": "user-4.jpg"
+  },
+  {
+    "name": "Olivia Brown",
+    "email": "oliviabrown@example.com",
+    "role": "guide",
+    "photo": "user-5.jpg"
+  },
+  {
+    "name": "Michael Taylor",
+    "email": "michaeltaylor@example.com",
+    "role": "guide",
+    "photo": "user-6.jpg"
+  },
+  {
+    "name": "Sophia Martinez",
+    "email": "sophiamartinez@example.com",
+    "role": "user",
+    "photo": "user-7.jpg"
+  },
+  {
+    "name": "Benjamin Clark",
+    "email": "benjaminclark@example.com",
+    "role": "user",
+    "photo": "user-8.jpg"
+  },
+  {
+    "name": "Mia Rodriguez",
+    "email": "miarodriguez@example.com",
+    "role": "lead-guide",
+    "photo": "user-9.jpg"
+  },
+  {
+    "name": "Ethan Lewis",
+    "email": "ethanlewis@example.com",
+    "role": "lead-guide",
+    "photo": "user-10.jpg"
+  },
+  {
+    "name": "Charlotte Hill",
+    "email": "charlottehill@example.com",
+    "role": "lead-guide",
+    "photo": "user-11.jpg"
+  },
+  {
+    "name": "Liam Young",
+    "email": "liamyoung@example.com",
+    "role": "guide",
+    "photo": "user-12.jpg"
+  },
+  {
+    "name": "Amelia White",
+    "email": "ameliawhite@example.com",
+    "role": "user",
+    "photo": "user-13.jpg"
+  },
+  {
+    "name": "Henry Hall",
+    "email": "henryhall@example.com",
+    "role": "user",
+    "photo": "user-14.jpg"
+  },
+  {
+    "name": "Ava Anderson",
+    "email": "avaanderson@example.com",
+    "role": "user",
+    "photo": "user-15.jpg"
+  },
+  {
+    "name": "William Green",
+    "email": "williamgreen@example.com",
+    "role": "user",
+    "photo": "user-16.jpg"
+  },
+  {
+    "name": "Sofia Adams",
+    "email": "sofiaadams@example.com",
+    "role": "user",
+    "photo": "user-17.jpg"
+  },
+  {
+    "name": "James Campbell",
+    "email": "jamescampbell@example.com",
+    "role": "guide",
+    "photo": "user-18.jpg"
+  },
+  {
+    "name": "Evelyn Hughes",
+    "email": "evelynhughes@example.com",
+    "role": "user",
+    "photo": "user-19.jpg"
+  }
+]

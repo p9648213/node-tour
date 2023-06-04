@@ -1,0 +1,1150 @@
+[
+  {
+    "startLocation": {
+      "description": "San Francisco, USA",
+      "type": "Point",
+      "coordinates": [-122.419416, 37.774929],
+      "address": "1 Dr Carlton B Goodlett Pl, San Francisco, CA 94102, USA"
+    },
+    "ratingsAverage": 4.5,
+    "ratingsQuantity": 8,
+    "images": ["tour-3-1.jpg", "tour-3-2.jpg", "tour-3-3.jpg"],
+    "startDates": [
+      "2021-07-10T10:00:00.000Z",
+      "2021-08-15T10:00:00.000Z",
+      "2021-09-20T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2956",
+    "name": "Golden Gate Trek",
+    "duration": 5,
+    "maxGroupSize": 10,
+    "difficulty": "easy",
+    "guides": ["5c8a1f4e2f8fb814b56fa186", "5c8a22c62f8fb814b56fa18c"],
+    "price": 299,
+    "summary": "Discover the iconic Golden Gate Bridge and enjoy stunning views",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-3-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c295a",
+        "description": "Golden Gate Bridge",
+        "type": "Point",
+        "coordinates": [-122.4785, 37.8199],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295b",
+        "description": "Presidio of San Francisco",
+        "type": "Point",
+        "coordinates": [-122.466233, 37.798753],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295c",
+        "description": "Baker Beach",
+        "type": "Point",
+        "coordinates": [-122.483055, 37.793811],
+        "day": 3
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "New York City, USA",
+      "type": "Point",
+      "coordinates": [-74.005941, 40.712776],
+      "address": "123 Broadway, New York, NY 10006, USA"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 12,
+    "images": ["tour-4-1.jpg", "tour-4-2.jpg", "tour-4-3.jpg"],
+    "startDates": [
+      "2021-08-05T08:00:00.000Z",
+      "2021-09-10T08:00:00.000Z",
+      "2021-10-15T08:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2957",
+    "name": "Cityscape Adventure",
+    "duration": 4,
+    "maxGroupSize": 8,
+    "difficulty": "easy",
+    "guides": ["5c8a1f4e2f8fb814b56fa187", "5c8a22c62f8fb814b56fa18d"],
+    "price": 399,
+    "summary": "Explore the iconic landmarks and vibrant culture of New York City",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-4-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c295d",
+        "description": "Times Square",
+        "type": "Point",
+        "coordinates": [-73.9855, 40.758],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295e",
+        "description": "Central Park",
+        "type": "Point",
+        "coordinates": [-73.968285, 40.785091],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c295f",
+        "description": "Statue of Liberty",
+        "type": "Point",
+        "coordinates": [-74.0445, 40.6892],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2960",
+        "description": "Brooklyn Bridge",
+        "type": "Point",
+        "coordinates": [-73.9969, 40.7061],
+        "day": 4
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Paris, France",
+      "type": "Point",
+      "coordinates": [2.352222, 48.856614],
+      "address": "10 Avenue des Champs-Élysées, 75008 Paris, France"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 15,
+    "images": ["tour-5-1.jpg", "tour-5-2.jpg", "tour-5-3.jpg"],
+    "startDates": [
+      "2021-08-25T09:30:00.000Z",
+      "2021-09-30T09:30:00.000Z",
+      "2021-10-28T09:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2961",
+    "name": "Parisian Delights",
+    "duration": 6,
+    "maxGroupSize": 12,
+    "difficulty": "easy",
+    "guides": ["5c8a1f4e2f8fb814b56fa188", "5c8a22c62f8fb814b56fa18e"],
+    "price": 599,
+    "summary": "Indulge in the beauty and romance of Paris",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-5-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2962",
+        "description": "Eiffel Tower",
+        "type": "Point",
+        "coordinates": [2.2945, 48.8584],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2963",
+        "description": "Louvre Museum",
+        "type": "Point",
+        "coordinates": [2.3352, 48.8606],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2964",
+        "description": "Montmartre",
+        "type": "Point",
+        "coordinates": [2.3426, 48.8867],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2965",
+        "description": "Seine River",
+        "type": "Point",
+        "coordinates": [2.2581, 48.861],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2966",
+        "description": "Notre-Dame Cathedral",
+        "type": "Point",
+        "coordinates": [2.3505, 48.8529],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2967",
+        "description": "Champs-Élysées",
+        "type": "Point",
+        "coordinates": [2.3076, 48.8655],
+        "day": 6
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Sydney, Australia",
+      "type": "Point",
+      "coordinates": [151.2093, -33.8688],
+      "address": "1 Macquarie Pl, Sydney NSW 2000, Australia"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 10,
+    "images": ["tour-6-1.jpg", "tour-6-2.jpg", "tour-6-3.jpg"],
+    "startDates": [
+      "2021-09-15T07:00:00.000Z",
+      "2021-10-20T07:00:00.000Z",
+      "2021-11-25T07:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2968",
+    "name": "Coastal Wonders",
+    "duration": 8,
+    "maxGroupSize": 20,
+    "difficulty": "medium",
+    "guides": ["5c8a1f4e2f8fb814b56fa189", "5c8a22c62f8fb814b56fa18f"],
+    "price": 799,
+    "summary": "Experience the breathtaking coastal beauty of Sydney",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-6-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2969",
+        "description": "Bondi Beach",
+        "type": "Point",
+        "coordinates": [151.2749, -33.891],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296a",
+        "description": "Blue Mountains",
+        "type": "Point",
+        "coordinates": [150.3037, -33.7144],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296b",
+        "description": "Sydney Opera House",
+        "type": "Point",
+        "coordinates": [151.214, -33.8568],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296c",
+        "description": "Sydney Harbour Bridge",
+        "type": "Point",
+        "coordinates": [151.21, -33.8523],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296d",
+        "description": "Royal National Park",
+        "type": "Point",
+        "coordinates": [151.0484, -34.1269],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296e",
+        "description": "Manly Beach",
+        "type": "Point",
+        "coordinates": [151.2881, -33.8],
+        "day": 6
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c296f",
+        "description": "Darling Harbour",
+        "type": "Point",
+        "coordinates": [151.2028, -33.8746],
+        "day": 7
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2970",
+        "description": "Taronga Zoo",
+        "type": "Point",
+        "coordinates": [151.2461, -33.8431],
+        "day": 8
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Tokyo, Japan",
+      "type": "Point",
+      "coordinates": [139.6917, 35.6895],
+      "address": "Tokyo, Japan"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 12,
+    "images": ["tour-8-1.jpg", "tour-8-2.jpg", "tour-8-3.jpg"],
+    "startDates": [
+      "2021-11-01T09:00:00.000Z",
+      "2021-12-03T09:00:00.000Z",
+      "2022-01-05T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c297c",
+    "name": "Temples and Traditions",
+    "duration": 5,
+    "maxGroupSize": 8,
+    "difficulty": "easy",
+    "guides": ["5c8a22c62f8fb814b56fa18c", "5c8a1f4e2f8fb814b56fa186"],
+    "price": 599,
+    "summary": "Immerse yourself in the rich culture and traditions of Tokyo",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-8-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c297d",
+        "description": "Senso-ji Temple",
+        "type": "Point",
+        "coordinates": [139.7967, 35.7142],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c297e",
+        "description": "Meiji Shrine",
+        "type": "Point",
+        "coordinates": [139.6996, 35.6764],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c297f",
+        "description": "Shinjuku Gyoen National Garden",
+        "type": "Point",
+        "coordinates": [139.7101, 35.685],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2980",
+        "description": "Tokyo Imperial Palace",
+        "type": "Point",
+        "coordinates": [139.7529, 35.6852],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2981",
+        "description": "Akihabara",
+        "type": "Point",
+        "coordinates": [139.7712, 35.7023],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Paris, France",
+      "type": "Point",
+      "coordinates": [2.3522, 48.8566],
+      "address": "Paris, France"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 10,
+    "images": ["tour-9-1.jpg", "tour-9-2.jpg", "tour-9-3.jpg"],
+    "startDates": [
+      "2021-12-10T10:00:00.000Z",
+      "2022-01-15T10:00:00.000Z",
+      "2022-02-20T10:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2982",
+    "name": "Art and Architecture",
+    "duration": 6,
+    "maxGroupSize": 12,
+    "difficulty": "medium",
+    "guides": ["5c8a22c62f8fb814b56fa18d", "5c8a1f4e2f8fb814b56fa187"],
+    "price": 799,
+    "summary": "Discover the captivating art and architecture of Paris",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-9-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2983",
+        "description": "Louvre Museum",
+        "type": "Point",
+        "coordinates": [2.3352, 48.8606],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2984",
+        "description": "Eiffel Tower",
+        "type": "Point",
+        "coordinates": [2.2945, 48.8584],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2985",
+        "description": "Palace of Versailles",
+        "type": "Point",
+        "coordinates": [2.1231, 48.8048],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2986",
+        "description": "Notre-Dame Cathedral",
+        "type": "Point",
+        "coordinates": [2.3488, 48.853],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2987",
+        "description": "Montmartre",
+        "type": "Point",
+        "coordinates": [2.3434, 48.8867],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2988",
+        "description": "Centre Pompidou",
+        "type": "Point",
+        "coordinates": [2.3521, 48.8606],
+        "day": 6
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Sydney, Australia",
+      "type": "Point",
+      "coordinates": [151.2093, -33.8688],
+      "address": "Sydney, Australia"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 8,
+    "images": ["tour-10-1.jpg", "tour-10-2.jpg", "tour-10-3.jpg"],
+    "startDates": [
+      "2022-03-05T08:00:00.000Z",
+      "2022-04-10T08:00:00.000Z",
+      "2022-05-15T08:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2989",
+    "name": "Coastal Adventure",
+    "duration": 9,
+    "maxGroupSize": 20,
+    "difficulty": "challenging",
+    "guides": ["5c8a22c62f8fb814b56fa18e", "5c8a1f4e2f8fb814b56fa188"],
+    "price": 1299,
+    "summary": "Embark on a thrilling coastal adventure in Sydney",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-10-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c298a",
+        "description": "Bondi Beach",
+        "type": "Point",
+        "coordinates": [151.2746, -33.8915],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c298b",
+        "description": "Blue Mountains National Park",
+        "type": "Point",
+        "coordinates": [150.3022, -33.7366],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c298c",
+        "description": "Sydney Opera House",
+        "type": "Point",
+        "coordinates": [151.214, -33.8568],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c298d",
+        "description": "Royal National Park",
+        "type": "Point",
+        "coordinates": [151.0436, -34.1175],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c298e",
+        "description": "Manly Beach",
+        "type": "Point",
+        "coordinates": [151.2886, -33.7972],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c298f",
+        "description": "Taronga Zoo",
+        "type": "Point",
+        "coordinates": [151.2463, -33.8439],
+        "day": 6
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2990",
+        "description": "Sydney Harbour Bridge",
+        "type": "Point",
+        "coordinates": [151.2108, -33.8523],
+        "day": 7
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2991",
+        "description": "Watsons Bay",
+        "type": "Point",
+        "coordinates": [151.2814, -33.8393],
+        "day": 8
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2992",
+        "description": "Cronulla Beach",
+        "type": "Point",
+        "coordinates": [151.1552, -34.0522],
+        "day": 9
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Cape Town, South Africa",
+      "type": "Point",
+      "coordinates": [18.4241, -33.9249],
+      "address": "Cape Town, South Africa"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 12,
+    "images": ["tour-11-1.jpg", "tour-11-2.jpg", "tour-11-3.jpg"],
+    "startDates": [
+      "2022-07-05T09:00:00.000Z",
+      "2022-08-10T09:00:00.000Z",
+      "2022-09-15T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c2993",
+    "name": "Safari Experience",
+    "duration": 10,
+    "maxGroupSize": 8,
+    "difficulty": "challenging",
+    "guides": ["5c8a22c62f8fb814b56fa18f", "5c8a1f4e2f8fb814b56fa189"],
+    "price": 2499,
+    "summary": "Embark on an unforgettable safari experience in Cape Town",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-11-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c2994",
+        "description": "Table Mountain",
+        "type": "Point",
+        "coordinates": [18.4151, -33.9628],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2995",
+        "description": "Cape of Good Hope",
+        "type": "Point",
+        "coordinates": [18.356, -34.3568],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2996",
+        "description": "Kruger National Park",
+        "type": "Point",
+        "coordinates": [31.5549, -24.8857],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2997",
+        "description": "Boulders Beach",
+        "type": "Point",
+        "coordinates": [18.4516, -34.1902],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2998",
+        "description": "Victoria & Alfred Waterfront",
+        "type": "Point",
+        "coordinates": [18.424, -33.9065],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c2999",
+        "description": "Robben Island",
+        "type": "Point",
+        "coordinates": [18.3683, -33.8069],
+        "day": 6
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3000",
+        "description": "Kirstenbosch National Botanical Garden",
+        "type": "Point",
+        "coordinates": [18.432, -33.9888],
+        "day": 7
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3001",
+        "description": "Lion's Head",
+        "type": "Point",
+        "coordinates": [18.3905, -33.9352],
+        "day": 8
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3002",
+        "description": "Cape Winelands",
+        "type": "Point",
+        "coordinates": [19.0038, -33.8276],
+        "day": 9
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3003",
+        "description": "Camps Bay",
+        "type": "Point",
+        "coordinates": [18.3782, -33.9515],
+        "day": 10
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Tokyo, Japan",
+      "type": "Point",
+      "coordinates": [139.6917, 35.6895],
+      "address": "Tokyo, Japan"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 9,
+    "images": ["tour-12-1.jpg", "tour-12-2.jpg", "tour-12-3.jpg"],
+    "startDates": [
+      "2022-11-12T07:30:00.000Z",
+      "2022-12-18T07:30:00.000Z",
+      "2023-01-22T07:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c3004",
+    "name": "Discover Japan",
+    "duration": 14,
+    "maxGroupSize": 12,
+    "difficulty": "moderate",
+    "guides": ["5c8a22c62f8fb814b56fa190", "5c8a1f4e2f8fb814b56fa18a"],
+    "price": 3899,
+    "summary": "Embark on an incredible journey to discover the beauty of Japan",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "imageCover": "tour-12-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c3005",
+        "description": "Tokyo Tower",
+        "type": "Point",
+        "coordinates": [139.7454, 35.6586],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3006",
+        "description": "Mount Fuji",
+        "type": "Point",
+        "coordinates": [138.7278, 35.3606],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3007",
+        "description": "Kyoto Imperial Palace",
+        "type": "Point",
+        "coordinates": [135.7635, 35.0254],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3008",
+        "description": "Arashiyama Bamboo Grove",
+        "type": "Point",
+        "coordinates": [135.6779, 35.0094],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3009",
+        "description": "Hiroshima Peace Memorial Park",
+        "type": "Point",
+        "coordinates": [132.4516, 34.3955],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3010",
+        "description": "Nara Park",
+        "type": "Point",
+        "coordinates": [135.8399, 34.6851],
+        "day": 6
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3011",
+        "description": "Osaka Castle",
+        "type": "Point",
+        "coordinates": [135.5185, 34.6874],
+        "day": 7
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3012",
+        "description": "Himeji Castle",
+        "type": "Point",
+        "coordinates": [134.6939, 34.8397],
+        "day": 8
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3013",
+        "description": "Todai-ji Temple",
+        "type": "Point",
+        "coordinates": [135.8396, 34.6895],
+        "day": 9
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3014",
+        "description": "Kiyomizu-dera Temple",
+        "type": "Point",
+        "coordinates": [135.8486, 34.994],
+        "day": 10
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3015",
+        "description": "Hakone Open-Air Museum",
+        "type": "Point",
+        "coordinates": [139.0524, 35.2396],
+        "day": 11
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3016",
+        "description": "Ueno Park",
+        "type": "Point",
+        "coordinates": [139.7729, 35.7148],
+        "day": 12
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3017",
+        "description": "Meiji Shrine",
+        "type": "Point",
+        "coordinates": [139.6992, 35.6764],
+        "day": 13
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3018",
+        "description": "Ginza Shopping District",
+        "type": "Point",
+        "coordinates": [139.7671, 35.6695],
+        "day": 14
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Paris, France",
+      "type": "Point",
+      "coordinates": [2.3522, 48.8566],
+      "address": "Paris, France"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 15,
+    "images": ["tour-13-1.jpg", "tour-13-2.jpg", "tour-13-3.jpg"],
+    "startDates": [
+      "2022-09-05T09:30:00.000Z",
+      "2022-10-10T09:30:00.000Z",
+      "2023-01-15T09:30:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c3019",
+    "name": "Enchanting Paris",
+    "duration": 5,
+    "maxGroupSize": 10,
+    "difficulty": "easy",
+    "guides": ["5c8a22c62f8fb814b56fa18d", "5c8a1f4e2f8fb814b56fa186"],
+    "price": 1299,
+    "summary": "Experience the enchantment of Paris in a delightful 5-day journey",
+    "description": "Discover the charm and elegance of Paris, the City of Light. Immerse yourself in its rich history, admire iconic landmarks, savor exquisite cuisine, and indulge in world-class shopping. This enchanting tour will take you to famous attractions such as the Eiffel Tower, Louvre Museum, Notre-Dame Cathedral, Champs-Élysées, Montmartre, and the Palace of Versailles. Enjoy leisurely strolls along the Seine River, explore quaint neighborhoods, and experience the vibrant Parisian lifestyle. Join us on this unforgettable journey and create lasting memories in the heart of France.",
+    "imageCover": "tour-13-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c3020",
+        "description": "Eiffel Tower",
+        "type": "Point",
+        "coordinates": [2.2945, 48.8584],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3021",
+        "description": "Louvre Museum",
+        "type": "Point",
+        "coordinates": [2.3376, 48.8606],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3022",
+        "description": "Notre-Dame Cathedral",
+        "type": "Point",
+        "coordinates": [2.3498, 48.853],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3023",
+        "description": "Champs-Élysées",
+        "type": "Point",
+        "coordinates": [2.3076, 48.8698],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3024",
+        "description": "Montmartre",
+        "type": "Point",
+        "coordinates": [2.3426, 48.8867],
+        "day": 5
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Cusco, Peru",
+      "type": "Point",
+      "coordinates": [-71.9772, -13.5319],
+      "address": "Cusco, Peru"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 15,
+    "images": ["tour-16-1.jpg", "tour-16-2.jpg", "tour-16-3.jpg"],
+    "startDates": [
+      "2022-10-15T07:00:00.000Z",
+      "2022-11-20T07:00:00.000Z",
+      "2023-01-10T07:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c3037",
+    "name": "Mystical Machu Picchu",
+    "duration": 10,
+    "maxGroupSize": 10,
+    "difficulty": "challenging",
+    "guides": ["5c8a22c62f8fb814b56fa190", "5c8a1f4e2f8fb814b56fa189"],
+    "price": 1999,
+    "summary": "Embark on a mystical journey to discover the ancient city of Machu Picchu",
+    "description": "Uncover the mysteries of the Inca civilization as you embark on a mystical journey to Machu Picchu. This 10-day adventure begins in the historic city of Cusco, where you will explore ancient ruins and colonial architecture. Trek along the legendary Inca Trail, passing breathtaking landscapes and remote villages. Witness the sunrise over the magnificent Machu Picchu, a UNESCO World Heritage Site, and marvel at its awe-inspiring beauty. Immerse yourself in the rich history and culture of the Incas, visit sacred sites, and learn about their fascinating traditions. This tour is a true exploration of one of the world's most iconic archaeological sites and a transformative experience that will leave you in awe.",
+    "imageCover": "tour-16-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c3038",
+        "description": "Sacred Valley",
+        "type": "Point",
+        "coordinates": [-72.0808, -13.3287],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3039",
+        "description": "Inca Trail",
+        "type": "Point",
+        "coordinates": [-72.5459, -13.3272],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3040",
+        "description": "Machu Picchu",
+        "type": "Point",
+        "coordinates": [-72.5459, -13.1631],
+        "day": 6
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3041",
+        "description": "Moray",
+        "type": "Point",
+        "coordinates": [-71.4046, -13.3329],
+        "day": 9
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3042",
+        "description": "Rainbow Mountain",
+        "type": "Point",
+        "coordinates": [-71.4074, -13.8653],
+        "day": 10
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Sydney, Australia",
+      "type": "Point",
+      "coordinates": [151.2093, -33.8688],
+      "address": "Sydney, Australia"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 12,
+    "images": ["tour-17-1.jpg", "tour-17-2.jpg", "tour-17-3.jpg"],
+    "startDates": [
+      "2022-12-05T09:00:00.000Z",
+      "2023-02-20T09:00:00.000Z",
+      "2023-04-10T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c3043",
+    "name": "Coastal Ultimate Adventure",
+    "duration": 14,
+    "maxGroupSize": 8,
+    "difficulty": "moderate",
+    "guides": ["5c8a22c62f8fb814b56fa191", "5c8a1f4e2f8fb814b56fa18a"],
+    "price": 3499,
+    "summary": "Embark on an unforgettable coastal adventure along Australia's stunning shoreline",
+    "description": "Experience the beauty of Australia's coastline on this 14-day adventure from Sydney to Cairns. Explore breathtaking beaches, hidden coves, and vibrant underwater worlds as you snorkel in the Great Barrier Reef. Discover the iconic landmarks of Sydney, including the Sydney Opera House and Bondi Beach. Traverse the scenic coastline, stopping at picturesque towns and national parks along the way. Immerse yourself in the laid-back Australian lifestyle, savor delicious seafood, and witness stunning sunsets over the ocean. With a perfect mix of relaxation and adventure, this tour is an ideal way to experience the best of Australia's coastal wonders.",
+    "imageCover": "tour-17-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c3044",
+        "description": "Bondi Beach",
+        "type": "Point",
+        "coordinates": [151.2749, -33.8915],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3045",
+        "description": "Byron Bay",
+        "type": "Point",
+        "coordinates": [153.615, -28.6474],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3046",
+        "description": "Noosa National Park",
+        "type": "Point",
+        "coordinates": [153.0953, -26.396],
+        "day": 9
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3047",
+        "description": "Whitsunday Islands",
+        "type": "Point",
+        "coordinates": [148.7277, -20.2858],
+        "day": 12
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3048",
+        "description": "Cairns",
+        "type": "Point",
+        "coordinates": [145.7734, -16.9186],
+        "day": 14
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Paris, France",
+      "type": "Point",
+      "coordinates": [2.3522, 48.8566],
+      "address": "Paris, France"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 18,
+    "images": ["tour-18-1.jpg", "tour-18-2.jpg", "tour-18-3.jpg"],
+    "startDates": [
+      "2022-09-15T08:00:00.000Z",
+      "2023-03-10T08:00:00.000Z",
+      "2023-06-20T08:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c3049",
+    "name": "Enchanting Europe",
+    "duration": 12,
+    "maxGroupSize": 12,
+    "difficulty": "easy",
+    "guides": ["5c8a22c62f8fb814b56fa192", "5c8a1f4e2f8fb814b56fa18b"],
+    "price": 2799,
+    "summary": "Embark on a captivating journey through the enchanting cities of Europe",
+    "description": "Discover the magic of Europe on this 12-day journey through some of its most enchanting cities. Begin your adventure in the romantic city of Paris, where you'll admire iconic landmarks like the Eiffel Tower and explore charming neighborhoods. Travel to Amsterdam and cruise along its picturesque canals, visit historic sites, and immerse yourself in its vibrant culture. Continue to the fairy-tale city of Prague, known for its stunning architecture and rich history. Explore the beautiful streets of Vienna, indulge in delicious pastries, and witness the grandeur of Schönbrunn Palace. Conclude your journey in Budapest, where you'll soak in the thermal baths and admire the beauty of the Danube River. This tour promises to leave you captivated by the allure of Europe's most charming cities.",
+    "imageCover": "tour-18-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c3050",
+        "description": "Paris City Center",
+        "type": "Point",
+        "coordinates": [2.3522, 48.8566],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3051",
+        "description": "Amsterdam Canal Belt",
+        "type": "Point",
+        "coordinates": [4.897, 52.365],
+        "day": 4
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3052",
+        "description": "Prague Old Town Square",
+        "type": "Point",
+        "coordinates": [14.425, 50.0878],
+        "day": 7
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3053",
+        "description": "Vienna City Center",
+        "type": "Point",
+        "coordinates": [16.3731, 48.2082],
+        "day": 9
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3054",
+        "description": "Budapest Castle Hill",
+        "type": "Point",
+        "coordinates": [19.0402, 47.4979],
+        "day": 12
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Rio de Janeiro, Brazil",
+      "type": "Point",
+      "coordinates": [-43.1729, -22.9068],
+      "address": "Rio de Janeiro, Brazil"
+    },
+    "ratingsAverage": 4.6,
+    "ratingsQuantity": 10,
+    "images": ["tour-19-1.jpg", "tour-19-2.jpg", "tour-19-3.jpg"],
+    "startDates": [
+      "2022-11-20T09:00:00.000Z",
+      "2023-02-05T09:00:00.000Z",
+      "2023-04-15T09:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c3055",
+    "name": "Amazon Rainforest Expedition",
+    "duration": 10,
+    "maxGroupSize": 10,
+    "difficulty": "challenging",
+    "guides": ["5c8a22c62f8fb814b56fa193", "5c8a1f4e2f8fb814b56fa18c"],
+    "price": 3999,
+    "summary": "Embark on an unforgettable expedition through the incredible Amazon rainforest",
+    "description": "Immerse yourself in the awe-inspiring beauty of the Amazon rainforest on this 10-day expedition. Begin your journey in Rio de Janeiro, then venture deep into the heart of the Amazon. Explore dense jungles, navigate winding rivers, and encounter unique wildlife as you learn about the intricate ecosystems that make up this incredible natural wonder. Witness vibrant bird species, spot elusive jaguars, and interact with indigenous communities to gain insights into their rich cultural heritage. Trek through lush trails, take exhilarating boat rides, and sleep under the stars in eco-friendly lodges. This expedition offers a rare opportunity to connect with nature and discover the wonders of the Amazon in an immersive and sustainable way.",
+    "imageCover": "tour-19-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c3056",
+        "description": "Manaus",
+        "type": "Point",
+        "coordinates": [-60.025, -3.4653],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3057",
+        "description": "Anavilhanas Archipelago",
+        "type": "Point",
+        "coordinates": [-60.9659, -2.4862],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3058",
+        "description": "Juma Lake",
+        "type": "Point",
+        "coordinates": [-60.8205, -3.315],
+        "day": 6
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3059",
+        "description": "Mamirauá Reserve",
+        "type": "Point",
+        "coordinates": [-64.1993, -3.0319],
+        "day": 8
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3060",
+        "description": "Rio Negro",
+        "type": "Point",
+        "coordinates": [-62.2546, -2.9326],
+        "day": 10
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Cape Town, South Africa",
+      "type": "Point",
+      "coordinates": [18.4241, -33.9249],
+      "address": "Cape Town, South Africa"
+    },
+    "ratingsAverage": 4.7,
+    "ratingsQuantity": 14,
+    "images": ["tour-20-1.jpg", "tour-20-2.jpg", "tour-20-3.jpg"],
+    "startDates": [
+      "2022-10-10T08:00:00.000Z",
+      "2023-01-05T08:00:00.000Z",
+      "2023-03-20T08:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c3061",
+    "name": "Safari Adventure",
+    "duration": 9,
+    "maxGroupSize": 8,
+    "difficulty": "medium",
+    "guides": ["5c8a22c62f8fb814b56fa194", "5c8a1f4e2f8fb814b56fa18d"],
+    "price": 2999,
+    "summary": "Embark on an exhilarating safari adventure in the heart of South Africa",
+    "description": "Experience the thrill of a lifetime on this 9-day safari adventure in the stunning landscapes of South Africa. Begin your journey in Cape Town, where you'll explore the vibrant city and admire breathtaking views from Table Mountain. Journey to the world-famous Kruger National Park, home to an abundance of wildlife, including the Big Five. Embark on game drives led by experienced guides, track animals in their natural habitats, and witness incredible animal encounters up close. Immerse yourself in the beauty of the African bush, stay in comfortable lodges, and listen to the sounds of the wilderness under starry skies. This safari adventure promises unforgettable moments and a deep connection with nature in one of the world's most renowned wildlife destinations.",
+    "imageCover": "tour-20-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c3062",
+        "description": "Cape Town City Center",
+        "type": "Point",
+        "coordinates": [18.4241, -33.9249],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3063",
+        "description": "Kruger National Park",
+        "type": "Point",
+        "coordinates": [31.5547, -24.4071],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3064",
+        "description": "Sabi Sand Game Reserve",
+        "type": "Point",
+        "coordinates": [31.6012, -24.8113],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3065",
+        "description": "Timbavati Nature Reserve",
+        "type": "Point",
+        "coordinates": [31.4062, -24.3439],
+        "day": 7
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3066",
+        "description": "Blyde River Canyon",
+        "type": "Point",
+        "coordinates": [30.9067, -24.5875],
+        "day": 9
+      }
+    ]
+  },
+  {
+    "startLocation": {
+      "description": "Tokyo, Japan",
+      "type": "Point",
+      "coordinates": [139.6917, 35.6895],
+      "address": "Tokyo, Japan"
+    },
+    "ratingsAverage": 4.9,
+    "ratingsQuantity": 18,
+    "images": ["tour-21-1.jpg", "tour-21-2.jpg", "tour-21-3.jpg"],
+    "startDates": [
+      "2022-09-15T08:00:00.000Z",
+      "2023-01-10T08:00:00.000Z",
+      "2023-04-05T08:00:00.000Z"
+    ],
+    "_id": "5c88fa8cf4afda39709c3067",
+    "name": "Zen Gardens and Temples",
+    "duration": 7,
+    "maxGroupSize": 12,
+    "difficulty": "easy",
+    "guides": ["5c8a22c62f8fb814b56fa195", "5c8a1f4e2f8fb814b56fa18e"],
+    "price": 1499,
+    "summary": "Discover the tranquility of Japanese Zen gardens and ancient temples",
+    "description": "Immerse yourself in the serene beauty of Japanese Zen gardens and ancient temples on this 7-day journey through Tokyo and Kyoto. Begin your tour in bustling Tokyo, where you'll experience the juxtaposition of modernity and tradition. Visit iconic landmarks such as the Meiji Shrine and the Imperial Palace, and explore the vibrant neighborhoods of Shibuya and Shinjuku. Travel to Kyoto, a city renowned for its rich cultural heritage and breathtaking temples. Wander through the enchanting Arashiyama Bamboo Grove, marvel at the golden splendor of Kinkaku-ji Temple, and experience a traditional tea ceremony in a serene Zen garden. This tour offers a peaceful escape from the hustle and bustle of city life, allowing you to connect with the tranquility and spirituality of Japanese culture.",
+    "imageCover": "tour-21-cover.jpg",
+    "locations": [
+      {
+        "_id": "5c88fa8cf4afda39709c3068",
+        "description": "Tokyo Imperial Palace",
+        "type": "Point",
+        "coordinates": [139.7525, 35.685],
+        "day": 1
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3069",
+        "description": "Shinjuku Gyoen National Garden",
+        "type": "Point",
+        "coordinates": [139.7076, 35.6852],
+        "day": 2
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3070",
+        "description": "Meiji Shrine",
+        "type": "Point",
+        "coordinates": [139.6992, 35.6764],
+        "day": 3
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3071",
+        "description": "Arashiyama Bamboo Grove",
+        "type": "Point",
+        "coordinates": [135.6829, 35.0095],
+        "day": 5
+      },
+      {
+        "_id": "5c88fa8cf4afda39709c3072",
+        "description": "Kinkaku-ji Temple",
+        "type": "Point",
+        "coordinates": [135.729, 35.0399],
+        "day": 6
+      }
+    ]
+  }
+]

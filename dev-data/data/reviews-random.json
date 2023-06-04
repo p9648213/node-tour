@@ -1,0 +1,1313 @@
+//Golden Gate
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9109",
+    "review": "Breathtaking views, knowledgeable guides. Highly recommended!",
+    "rating": 4.8,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9110",
+    "review": "Fantastic experience! Well-organized tour with stunning views.",
+    "rating": 4.7,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9111",
+    "review": "Perfect balance of information and exploration. Must-see attraction!",
+    "rating": 4.9,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9112",
+    "review": "Unforgettable experience. Friendly guides, stunning views!",
+    "rating": 5,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9113",
+    "review": "Fantastic trek with knowledgeable guides and plenty of photo opportunities!",
+    "rating": 4.8,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9114",
+    "review": "Enjoyed every moment! The Golden Gate Bridge is magnificent. Great tour guides.",
+    "rating": 4.5,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c2956"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9115",
+    "review": "A must-do tour! Stunning views and interesting facts. Thumbs up!",
+    "rating": 4.7,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c2956"
+  }
+]
+
+//CityScape Aventure
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9116",
+    "review": "Absolutely loved the tour! The guides were knowledgeable and the cityscape views were breathtaking.",
+    "rating": 4.9,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c2957"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9117",
+    "review": "Had a fantastic time exploring New York City! The tour was well-organized and exceeded my expectations.",
+    "rating": 4.8,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c2957"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9118",
+    "review": "Disappointing experience. The tour felt rushed, and the guides lacked enthusiasm.",
+    "rating": 2.5,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c2957"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9119",
+    "review": "The Cityscape Adventure was a letdown. Limited time at each location and overcrowded group.",
+    "rating": 2.2,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c2957"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9120",
+    "review": "Had a great time exploring Central Park. The guides were friendly and shared interesting facts.",
+    "rating": 4.7,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c2957"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9121",
+    "review": "The Statue of Liberty visit was the highlight! Incredible views and a memorable experience.",
+    "rating": 4.9,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c2957"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9122",
+    "review": "Had high expectations but felt underwhelmed. The tour lacked in-depth historical information.",
+    "rating": 3.2,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c2957"
+  }
+]
+
+//Parisian Delights
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9123",
+    "review": "An enchanting experience! Parisian Delights surpassed all expectations with its charming locations and knowledgeable guides.",
+    "rating": 4.9,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9124",
+    "review": "Highly recommended! The beauty of Paris was captured perfectly in this well-planned tour.",
+    "rating": 4.8,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9125",
+    "review": "Expected more from the tour. The guides seemed disinterested, and some locations felt rushed.",
+    "rating": 3.2,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9126",
+    "review": "Disappointed with the lack of historical insights and overcrowded spots. Not worth the price.",
+    "rating": 2.5,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9127",
+    "review": "The Eiffel Tower view was breathtaking! Parisian Delights offered a delightful journey through the city's iconic landmarks.",
+    "rating": 4.9,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9128",
+    "review": "Had an average experience. Some locations were crowded, and the tour lacked unique insights.",
+    "rating": 3.5,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c2961"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9129",
+    "review": "Parisian Delights was a memorable tour! The Louvre Museum visit and Montmartre exploration were highlights.",
+    "rating": 4.7,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c2961"
+  }
+]
+
+//Coastal Wonders
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9130",
+    "review": "Coastal Wonders was a remarkable experience! The stunning views and knowledgeable guides made it unforgettable.",
+    "rating": 4.8,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c2968"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9131",
+    "review": "Highly recommend this tour! The beauty of Sydney's coast and the Blue Mountains is awe-inspiring.",
+    "rating": 4.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c2968"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9132",
+    "review": "Not satisfied with the tour. Some locations were crowded, and the duration felt too long.",
+    "rating": 3.0,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c2968"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9133",
+    "review": "The tour lacked organization and the guides were not very informative. Disappointed with the overall experience.",
+    "rating": 2.2,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c2968"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9134",
+    "review": "Breathtaking views from the Sydney Harbour Bridge! Coastal Wonders offered a perfect blend of adventure and relaxation.",
+    "rating": 4.7,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c2968"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9135",
+    "review": "Expected better organization and more comfortable transportation. Some locations were underwhelming.",
+    "rating": 3.5,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c2968"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9136",
+    "review": "Coastal Wonders exceeded my expectations! The Royal National Park and Manly Beach were absolute highlights.",
+    "rating": 4.9,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c2968"
+  }
+]
+//Safari Adventure
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9137",
+    "review": "An incredible safari experience! Witnessing the wildlife up close was breathtaking. Highly recommended.",
+    "rating": 4.9,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c3061"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9138",
+    "review": "The Safari Adventure exceeded expectations. The guides were knowledgeable and made the trip unforgettable.",
+    "rating": 4.8,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c3061"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9139",
+    "review": "Disappointed with the accommodations and the lack of variety in wildlife sightings. Expected more for the price.",
+    "rating": 3.2,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c3061"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c913a",
+    "review": "The Safari Adventure didn't meet my expectations. The duration felt too long, and the activities were repetitive.",
+    "rating": 2.7,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c3061"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c913b",
+    "review": "Thrilling encounters with the Big Five! Safari Adventure provided an authentic and memorable African experience.",
+    "rating": 4.9,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c3061"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c913c",
+    "review": "Expected more comfortable transportation and better communication from the guides. Disappointing overall.",
+    "rating": 3.5,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c3061"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c913d",
+    "review": "Safari Adventure was a dream come true! The stunning landscapes and close encounters with wildlife were unforgettable.",
+    "rating": 4.9,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c3061"
+  }
+]
+//Temples and Traditions
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c913e",
+    "review": "The Temples and Traditions tour was enlightening. Experienced the tranquility of ancient temples and learned about Japanese culture.",
+    "rating": 4.8,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c297c"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c913f",
+    "review": "Disappointed with the limited time spent at each location. Would have liked more immersive experiences.",
+    "rating": 3.5,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c297c"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9140",
+    "review": "Highly recommended! The Temples and Traditions tour provided a unique insight into Tokyo's spiritual and cultural heritage.",
+    "rating": 4.9,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c297c"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9141",
+    "review": "Expected more in-depth explanations from the guides. Some locations felt rushed. Average experience overall.",
+    "rating": 3.2,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c297c"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9142",
+    "review": "The Temples and Traditions tour immersed us in Tokyo's rich history. The guides were knowledgeable and friendly.",
+    "rating": 4.7,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c297c"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9143",
+    "review": "Not worth the price. The tour lacked depth and the itinerary could have included more iconic temples.",
+    "rating": 2.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c297c"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9144",
+    "review": "The Temples and Traditions tour was a delightful cultural experience. Loved the serene atmosphere of the temples.",
+    "rating": 4.8,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c297c"
+  }
+]
+//Art and Architecture
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9145",
+    "review": "The Art and Architecture tour was a feast for the senses. Paris' iconic landmarks left me in awe!",
+    "rating": 4.9,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c2982"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9146",
+    "review": "Expected more in-depth insights into the art and architecture. Some locations felt rushed and overcrowded.",
+    "rating": 3.2,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c2982"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9147",
+    "review": "Highly recommend the Art and Architecture tour. Paris' cultural treasures are beautifully showcased with knowledgeable guides.",
+    "rating": 4.8,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c2982"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9148",
+    "review": "Disappointed with the organization of the tour. Limited time at each location and lack of interaction with the guides.",
+    "rating": 2.7,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c2982"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9149",
+    "review": "The Art and Architecture tour exceeded my expectations. The grandeur of the Louvre and Eiffel Tower were breathtaking.",
+    "rating": 4.7,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c2982"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9150",
+    "review": "Overpriced for what it offered. The tour lacked depth and the itinerary could have included more lesser-known architectural gems.",
+    "rating": 2.9,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c2982"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9151",
+    "review": "The Art and Architecture tour was an enlightening experience. The guides provided fascinating insights into Paris' cultural heritage.",
+    "rating": 4.6,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c2982"
+  }
+]
+//Coastal Adventure
+[
+  {
+    "_id": "5c8a34ed14eb5c17645c9152",
+    "review": "The Coastal Adventure tour was an unforgettable experience. Breathtaking views and thrilling activities made it worth every penny.",
+    "rating": 4.9,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c2989"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9153",
+    "review": "Disappointed with the Coastal Adventure tour. The itinerary was too rushed, and some activities were not as advertised.",
+    "rating": 2.8,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c2989"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9154",
+    "review": "Highly recommend the Coastal Adventure tour. The stunning landscapes and diverse wildlife made it an exceptional experience.",
+    "rating": 4.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c2989"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9155",
+    "review": "The Coastal Adventure tour fell short of expectations. Limited time at each location and lackluster guides affected the overall experience.",
+    "rating": 3.2,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c2989"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9156",
+    "review": "The Coastal Adventure tour exceeded my expectations. The Blue Mountains and Sydney Harbour were truly mesmerizing.",
+    "rating": 4.7,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c2989"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9157",
+    "review": "Overpriced for what it offered. Some locations were overcrowded, and the tour lacked opportunities for relaxation and exploration.",
+    "rating": 3.1,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c2989"
+  },
+  {
+    "_id": "5c8a34ed14eb5c17645c9158",
+    "review": "The Coastal Adventure tour was an incredible journey. From Bondi Beach to Cronulla, the coastal beauty left me in awe.",
+    "rating": 4.9,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c2989"
+  }
+]
+//Safari Experience
+[
+  {
+    "_id": "5c8a36ef14eb5c17645c9159",
+    "review": "The Safari Experience was a once-in-a-lifetime adventure. Seeing the Big Five up close was awe-inspiring.",
+    "rating": 4.8,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c2993"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c915a",
+    "review": "Unfortunately, the Safari Experience didn't meet our expectations. Limited wildlife sightings and disorganized logistics affected our overall experience.",
+    "rating": 2.5,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c2993"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c915b",
+    "review": "The Safari Experience surpassed all expectations. We were treated to breathtaking landscapes and incredible wildlife encounters.",
+    "rating": 4.9,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c2993"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c915c",
+    "review": "We were disappointed with the Safari Experience. Poor accommodation and lack of knowledgeable guides made it less enjoyable.",
+    "rating": 3.0,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c2993"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c915d",
+    "review": "The Safari Experience exceeded our wildest dreams. Witnessing the African wildlife in their natural habitat was unforgettable.",
+    "rating": 4.7,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c2993"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c915e",
+    "review": "We expected more from the Safari Experience. The safari drives were rushed, and the accommodations didn't meet our standards.",
+    "rating": 3.3,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c2993"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c915f",
+    "review": "The Safari Experience left us speechless. From the stunning landscapes to the close encounters with wildlife, it was truly remarkable.",
+    "rating": 4.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c2993"
+  }
+]
+//Discover Japan
+[
+  {
+    "_id": "5c8a36ef14eb5c17645c9160",
+    "review": "The Discover Japan tour was absolutely amazing! From Tokyo's bustling streets to the serene beauty of Mount Fuji, it exceeded all expectations.",
+    "rating": 4.9,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c3004"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9161",
+    "review": "Unfortunately, the Discover Japan tour fell short. Limited time at each location and unorganized transportation made it a bit disappointing.",
+    "rating": 2.8,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c3004"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9162",
+    "review": "The Discover Japan tour was an incredible experience. Kyoto's rich history and the vibrant streets of Osaka were the highlights.",
+    "rating": 4.7,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c3004"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9163",
+    "review": "We had high expectations for the Discover Japan tour, but the crowded tourist spots and rushed itinerary were disappointing.",
+    "rating": 3.2,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c3004"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9164",
+    "review": "The Discover Japan tour exceeded all expectations! From the stunning temples to the peaceful landscapes, it was a journey of a lifetime.",
+    "rating": 4.9,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c3004"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9165",
+    "review": "We were a bit disappointed with the Discover Japan tour. Limited time at iconic sites and crowded transportation impacted our overall experience.",
+    "rating": 3.4,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c3004"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9166",
+    "review": "The Discover Japan tour left us speechless. The blend of ancient traditions and modern wonders created an unforgettable journey.",
+    "rating": 4.8,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c3004"
+  }
+]
+//Enchanting Paris
+[
+  {
+    "_id": "5c8a36ef14eb5c17645c9167",
+    "review": "The Enchanting Paris tour was an absolute delight! From the iconic Eiffel Tower to the charming streets of Montmartre, it exceeded all expectations.",
+    "rating": 4.9,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c3019"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9168",
+    "review": "Unfortunately, the Enchanting Paris tour fell short. Limited time at each location and unimpressive accommodations made it a bit disappointing.",
+    "rating": 2.7,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c3019"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9169",
+    "review": "The Enchanting Paris tour was a magical experience. The beauty of the Eiffel Tower and the art at the Louvre were truly captivating.",
+    "rating": 4.8,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c3019"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9170",
+    "review": "We had high expectations for the Enchanting Paris tour, but the crowded tourist spots and rushed itinerary were disappointing.",
+    "rating": 3.2,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c3019"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9171",
+    "review": "The Enchanting Paris tour exceeded all expectations! From the exquisite Notre-Dame Cathedral to the charming streets of Montmartre, it was a dream come true.",
+    "rating": 4.9,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c3019"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9172",
+    "review": "We were a bit disappointed with the Enchanting Paris tour. Limited time at iconic sites and unhelpful guides impacted our overall experience.",
+    "rating": 3.5,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c3019"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9173",
+    "review": "The Enchanting Paris tour left us speechless. The elegance of Champs-Élysées and the charm of Montmartre created unforgettable memories.",
+    "rating": 4.9,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c3019"
+  }
+]
+
+//Mystical Machu Picchu
+[
+  {
+    "_id": "5c8a36ef14eb5c17645c9188",
+    "review": "The Mystical Machu Picchu tour was a life-changing experience. The ancient ruins, breathtaking landscapes, and rich history left me in awe.",
+    "rating": 4.9,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c3037"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9189",
+    "review": "Unfortunately, the Mystical Machu Picchu tour didn't live up to the hype. Poor organization and overcrowded sites dampened the overall experience.",
+    "rating": 3.2,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c3037"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c918a",
+    "review": "The Mystical Machu Picchu tour was an unforgettable journey. From the Sacred Valley to the majestic ruins, it exceeded all expectations.",
+    "rating": 4.8,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c3037"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c918b",
+    "review": "We were disappointed with the Mystical Machu Picchu tour. Limited time at key sites and unhelpful guides impacted our overall enjoyment.",
+    "rating": 3.5,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c3037"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c918c",
+    "review": "The Mystical Machu Picchu tour was a truly magical experience. The awe-inspiring beauty of Machu Picchu and the Inca Trail left me speechless.",
+    "rating": 4.9,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c3037"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c918d",
+    "review": "We had mixed feelings about the Mystical Machu Picchu tour. While the ruins were fascinating, the strenuous hikes and limited amenities were challenging.",
+    "rating": 3.7,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c3037"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c918e",
+    "review": "The Mystical Machu Picchu tour was an incredible adventure. From exploring the Inca Trail to witnessing the majestic Machu Picchu, it surpassed all expectations.",
+    "rating": 4.9,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c3037"
+  }
+]
+//Coastal Ultimate Adventure
+[
+  {
+    "_id": "5c8a36ef14eb5c17645c918f",
+    "review": "The tour exceeded my expectations. The stunning beaches, vibrant marine life, and friendly guides made it an unforgettable experience.",
+    "rating": 4.8,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c3043"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9190",
+    "review": "Unfortunately, the tour didn't meet our expectations. Limited activities and subpar accommodations dampened our overall enjoyment.",
+    "rating": 3.2,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c3043"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9191",
+    "review": "The tour was an incredible journey. Snorkeling in the Great Barrier Reef and exploring stunning national parks left me speechless.",
+    "rating": 4.9,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c3043"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9192",
+    "review": "We were disappointed with the Coastal Adventure tour. The itinerary felt rushed, and some activities were canceled without prior notice.",
+    "rating": 3.4,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c3043"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9193",
+    "review": "The Coastal Ultimate Adventure tour was a dream come true. From Bondi Beach to the Whitsunday Islands, every moment was filled with beauty and excitement.",
+    "rating": 4.7,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c3043"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9194",
+    "review": "We had mixed feelings about the tour. While the coastal scenery was breathtaking, the group size was too large for a personalized experience.",
+    "rating": 3.8,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c3043"
+  },
+  {
+    "_id": "5c8a36ef14eb5c17645c9195",
+    "review": "The Coastal Adventure tour was an unforgettable journey. Exploring Noosa National Park and the Whitsunday Islands left me in awe of Australia's beauty.",
+    "rating": 4.9,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c3043"
+  }
+]
+//Enchanting Europe
+[
+  {
+    "_id": "5c8a3f6a14eb5c17645c9196",
+    "review": "The Enchanting Europe tour exceeded all my expectations. The cities, the guides, and the overall experience were simply enchanting!",
+    "rating": 4.9,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c3049"
+  },
+  {
+    "_id": "5c8a3f6a14eb5c17645c9197",
+    "review": "Unfortunately, the Enchanting Europe tour fell short of our expectations. Limited time in each city and lackluster accommodations affected our overall enjoyment.",
+    "rating": 3.5,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c3049"
+  },
+  {
+    "_id": "5c8a3f6a14eb5c17645c9198",
+    "review": "The Enchanting Europe tour was a dream come true. From the romantic streets of Paris to the majestic views of Budapest, it was pure magic.",
+    "rating": 4.8,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c3049"
+  },
+  {
+    "_id": "5c8a3f6a14eb5c17645c9199",
+    "review": "We were disappointed with the Enchanting Europe tour. Some attractions were overcrowded, and the pace felt rushed, leaving little time for exploration.",
+    "rating": 3.2,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c3049"
+  },
+  {
+    "_id": "5c8a3f6a14eb5c17645c919a",
+    "review": "The Enchanting Europe tour was a fairytale come true. Each city had its own unique charm, and the guides provided insightful knowledge throughout the journey.",
+    "rating": 4.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c3049"
+  },
+  {
+    "_id": "5c8a3f6a14eb5c17645c919b",
+    "review": "Although the Enchanting Europe tour had breathtaking sights, the group size was too large, and we felt like just another tourist in the crowd.",
+    "rating": 3.7,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c3049"
+  },
+  {
+    "_id": "5c8a3f6a14eb5c17645c919c",
+    "review": "The Enchanting Europe tour was a perfect blend of history, culture, and beauty. Each city left a lasting impression, and the guides were exceptional.",
+    "rating": 4.9,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c3049"
+  }
+]
+//Amazon Rainforest Expedition
+[
+  {
+    "_id": "5c8a410c14eb5c17645c919d",
+    "review": "The Amazon Rainforest Expedition was a life-changing experience. The biodiversity, the guides, and the sustainable approach made it truly remarkable.",
+    "rating": 4.8,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c3055"
+  },
+  {
+    "_id": "5c8a410c14eb5c17645c919e",
+    "review": "Unfortunately, the Amazon Rainforest Expedition didn't meet our expectations. Limited wildlife sightings and uncomfortable accommodations were major drawbacks.",
+    "rating": 3.2,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c3055"
+  },
+  {
+    "_id": "5c8a410c14eb5c17645c919f",
+    "review": "The Amazon Rainforest Expedition was an adventure of a lifetime. Exploring the dense jungles and encountering exotic wildlife left us in awe.",
+    "rating": 4.9,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c3055"
+  },
+  {
+    "_id": "5c8a410c14eb5c17645c91a0",
+    "review": "We were disappointed with the Amazon Rainforest Expedition. The tour lacked organization, and the guides didn't provide sufficient information about the flora and fauna.",
+    "rating": 3.4,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c3055"
+  },
+  {
+    "_id": "5c8a410c14eb5c17645c91a1",
+    "review": "The Amazon Rainforest Expedition exceeded our expectations. It was an immersive journey into the heart of nature, with knowledgeable guides and breathtaking landscapes.",
+    "rating": 4.7,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c3055"
+  },
+  {
+    "_id": "5c8a410c14eb5c17645c91a2",
+    "review": "Although the Amazon Rainforest Expedition had its moments, the itinerary felt rushed, and the accommodations were basic compared to the price.",
+    "rating": 3.6,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c3055"
+  },
+  {
+    "_id": "5c8a410c14eb5c17645c91a3",
+    "review": "The Amazon Rainforest Expedition was a magical adventure. Exploring remote locations, encountering wildlife, and connecting with indigenous communities made it unforgettable.",
+    "rating": 4.9,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c3055"
+  }
+]
+//Zen Gardens and Temples
+[
+  {
+    "_id": "5c8a432e14eb5c17645c91a4",
+    "review": "The Zen Gardens and Temples tour was an enlightening experience. The serene beauty of the gardens and the spirituality of the temples were awe-inspiring.",
+    "rating": 4.9,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c3067"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91a5",
+    "review": "We were disappointed with the Zen Gardens and Temples tour. The crowded tourist spots and rushed itinerary took away from the tranquility we had hoped for.",
+    "rating": 3.6,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c3067"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91a6",
+    "review": "The Zen Gardens and Temples tour was a blissful escape from the city. The peaceful gardens and ancient temples provided a serene and spiritual experience.",
+    "rating": 4.8,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c3067"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91a7",
+    "review": "The Zen Gardens and Temples tour fell short of our expectations. The guide lacked enthusiasm, and some temples were underwhelming compared to the descriptions.",
+    "rating": 3.3,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c3067"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91a8",
+    "review": "The Zen Gardens and Temples tour was a transformative experience. The beauty, serenity, and cultural significance of the gardens and temples were truly mesmerizing.",
+    "rating": 4.9,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c3067"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91a9",
+    "review": "We had mixed feelings about the Zen Gardens and Temples tour. While some temples were breathtaking, others felt crowded and lacking in tranquility.",
+    "rating": 3.8,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c3067"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91aa",
+    "review": "The Zen Gardens and Temples tour exceeded our expectations. The peacefulness of the gardens and the cultural insights provided by the guide were remarkable.",
+    "rating": 5.0,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c3067"
+  }
+]
+
+//Sea Explorer
+[
+  {
+    "_id": "5c8a432e14eb5c17645c91ab",
+    "review": "The Sea Explorer tour was an incredible adventure. Exploring the coast by foot and boat provided unforgettable experiences and stunning views.",
+    "rating": 4.9,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91ac",
+    "review": "We were disappointed with The Sea Explorer tour. The itinerary felt rushed, and the boat ride didn't meet our expectations.",
+    "rating": 3.5,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91ad",
+    "review": "The Sea Explorer tour exceeded our expectations. The coastal hikes and boat excursions provided breathtaking views and unforgettable experiences.",
+    "rating": 4.8,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91ae",
+    "review": "The Sea Explorer tour didn't live up to our expectations. The hiking trails were poorly maintained, and the boat ride was rough and uncomfortable.",
+    "rating": 2.7,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91af",
+    "review": "The Sea Explorer tour was an amazing experience. The coastal landscapes and boat adventures were truly breathtaking and worth every moment.",
+    "rating": 4.9,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91b0",
+    "review": "We had mixed feelings about The Sea Explorer tour. While the coastal hikes were stunning, the boat ride was overcrowded and lacked comfort.",
+    "rating": 3.7,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c2955"
+  },
+  {
+    "_id": "5c8a432e14eb5c17645c91b1",
+    "review": "The Sea Explorer tour was a once-in-a-lifetime experience. The coastal beauty and the thrill of boat exploration left us in awe.",
+    "rating": 4.9,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c2955"
+  }
+]
+
+//The Forest Hiker
+[
+  {
+    "_id": "5c8a45601b4eaf232c960b8d",
+    "review": "The Forest Hiker tour exceeded my expectations. The stunning landscapes and knowledgeable guides made it an unforgettable experience.",
+    "rating": 4.9,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a45601b4eaf232c960b8e",
+    "review": "I was disappointed with The Forest Hiker tour. The hike felt rushed, and the guides lacked enthusiasm and knowledge.",
+    "rating": 3.2,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a45601b4eaf232c960b8f",
+    "review": "The Forest Hiker tour was an amazing experience. The beauty of Banff National Park left me in awe.",
+    "rating": 4.8,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a45601b4eaf232c960b90",
+    "review": "The Forest Hiker tour didn't meet my expectations. The trails were poorly maintained, and the group size was too large.",
+    "rating": 2.9,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a45601b4eaf232c960b91",
+    "review": "The Forest Hiker tour was a fantastic experience. The scenic beauty and the friendly guides made it truly memorable.",
+    "rating": 4.9,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a45601b4eaf232c960b92",
+    "review": "We had mixed feelings about The Forest Hiker tour. While the landscapes were stunning, the guides lacked professionalism.",
+    "rating": 3.6,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c2951"
+  },
+  {
+    "_id": "5c8a45601b4eaf232c960b93",
+    "review": "The Forest Hiker tour was a dream come true. The hike through Banff National Park was awe-inspiring and unforgettable.",
+    "rating": 4.9,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c2951"
+  }
+]
+
+//The Snow Adventurer
+[
+  {
+    "_id": "5c8a56761b4eaf232c960b8d",
+    "review": "The Snow Adventurer tour was absolutely incredible. The adrenaline rush from snowboarding and skiing was unmatched!",
+    "rating": 4.8,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a56761b4eaf232c960b8e",
+    "review": "I was disappointed with The Snow Adventurer tour. The equipment provided was outdated, and the guides lacked enthusiasm.",
+    "rating": 3.2,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a56761b4eaf232c960b8f",
+    "review": "The Snow Adventurer tour exceeded my expectations. The slopes in Aspen Highlands were breathtaking!",
+    "rating": 4.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a56761b4eaf232c960b90",
+    "review": "The Snow Adventurer tour didn't meet my expectations. The difficulty level was too high for beginners, and the guides were unhelpful.",
+    "rating": 2.7,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a56761b4eaf232c960b91",
+    "review": "The Snow Adventurer tour was an amazing experience. Skiing in Beaver Creek was a dream come true!",
+    "rating": 4.9,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a56761b4eaf232c960b92",
+    "review": "We had mixed feelings about The Snow Adventurer tour. The ski resort was overcrowded, but the snow conditions were fantastic.",
+    "rating": 3.6,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c295a"
+  },
+  {
+    "_id": "5c8a56761b4eaf232c960b93",
+    "review": "The Snow Adventurer tour was an absolute blast. The thrill of snowboarding in Aspen was unmatched!",
+    "rating": 4.9,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c295a"
+  }
+]
+
+//The Park Camper
+[
+  {
+    "_id": "5c8a5d3f1b4eaf232c960b94",
+    "review": "The Park Camper tour was an unforgettable journey through stunning landscapes. Highly recommended for nature lovers!",
+    "rating": 4.9,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "6470038f2ef152cff83cd5ee"
+  },
+  {
+    "_id": "5c8a5d3f1b4eaf232c960b95",
+    "review": "The Park Camper tour fell short of my expectations. The accommodation provided was below average, and some locations were overcrowded.",
+    "rating": 3.4,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "6470038f2ef152cff83cd5ee"
+  },
+  {
+    "_id": "5c8a5d3f1b4eaf232c960b96",
+    "review": "The Park Camper tour exceeded my expectations. The beauty of Zion Canyon National Park left me in awe!",
+    "rating": 4.9,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "6470038f2ef152cff83cd5ee"
+  },
+  {
+    "_id": "5c8a5d3f1b4eaf232c960b97",
+    "review": "I wouldn't recommend The Park Camper tour. The itinerary felt rushed, and the guides lacked knowledge about the locations.",
+    "rating": 2.8,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "6470038f2ef152cff83cd5ee"
+  },
+  {
+    "_id": "5c8a5d3f1b4eaf232c960b98",
+    "review": "The Park Camper tour was an incredible adventure. Exploring Antelope Canyon was a surreal experience!",
+    "rating": 4.8,
+    "user": "647000012ef152cff83cd509",
+    "tour": "6470038f2ef152cff83cd5ee"
+  },
+  {
+    "_id": "5c8a5d3f1b4eaf232c960b99",
+    "review": "We had mixed feelings about The Park Camper tour. The Grand Canyon was breathtaking, but the camping facilities were subpar.",
+    "rating": 3.7,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "6470038f2ef152cff83cd5ee"
+  },
+  {
+    "_id": "5c8a5d3f1b4eaf232c960b9a",
+    "review": "The Park Camper tour was an amazing experience. Joshua Tree National Park was like stepping into another world!",
+    "rating": 4.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "6470038f2ef152cff83cd5ee"
+  }
+]
+
+//The City Wanderer
+[
+  {
+    "_id": "5c8a5e201b4eaf232c960b9b",
+    "review": "The City Wanderer tour was an incredible experience. I fell in love with the vibrant energy of New York City!",
+    "rating": 4.8,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960b9c",
+    "review": "I was disappointed with The City Wanderer tour. The accommodation provided was subpar, and the itinerary felt rushed.",
+    "rating": 3.2,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960b9d",
+    "review": "The City Wanderer tour exceeded my expectations. Exploring the vibrant streets of Los Angeles was a dream come true!",
+    "rating": 4.9,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960b9e",
+    "review": "The City Wanderer tour didn't meet my expectations. The guides seemed disinterested, and the group size was too large.",
+    "rating": 2.7,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960b9f",
+    "review": "The City Wanderer tour was amazing. San Francisco's iconic landmarks took my breath away!",
+    "rating": 4.7,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960ba0",
+    "review": "I had mixed feelings about The City Wanderer tour. The city tours were enjoyable, but the transportation arrangements were chaotic.",
+    "rating": 3.5,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c295d"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960ba1",
+    "review": "The City Wanderer tour was an unforgettable experience. I was captivated by the vibrant atmosphere of San Francisco!",
+    "rating": 4.9,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c295d"
+  }
+]
+
+//The Sports Lover
+[
+  {
+    "_id": "5c8a5e201b4eaf232c960ba2",
+    "review": "The Sports Lover tour was an adrenaline-packed experience. Surfing in Point Dume Beach was the highlight of my trip!",
+    "rating": 4.5,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960ba3",
+    "review": "I was disappointed with The Sports Lover tour. The rock climbing activity was canceled without prior notice.",
+    "rating": 2.8,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960ba4",
+    "review": "The Sports Lover tour surpassed my expectations. Venice Skate Park provided an incredible skateboarding experience!",
+    "rating": 4.9,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960ba5",
+    "review": "The Sports Lover tour didn't meet my expectations. The parajumping activity was rushed and lacked proper instructions.",
+    "rating": 3.2,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960ba6",
+    "review": "The Sports Lover tour was incredible. Skydiving in San Diego gave me an unforgettable adrenaline rush!",
+    "rating": 4.7,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960ba7",
+    "review": "I had mixed feelings about The Sports Lover tour. The rafting experience in Kern River was thrilling, but the guides lacked enthusiasm.",
+    "rating": 3.5,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c2966"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960ba8",
+    "review": "The Sports Lover tour was a once-in-a-lifetime experience. Exploring Yosemite National Park was breathtaking!",
+    "rating": 4.8,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c2966"
+  }
+]
+
+//The Star Gazer
+[
+  {
+    "_id": "5c8a5e201b4eaf232c960bb2",
+    "review": "The Star Gazer tour was a magical experience. Natural Bridges National Monument offered breathtaking views of the night sky!",
+    "rating": 4.9,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bb3",
+    "review": "I expected more from The Star Gazer tour. Horseshoe Bend location was crowded, and stargazing was difficult.",
+    "rating": 3.2,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bb4",
+    "review": "The Star Gazer tour exceeded my expectations. Witnessing the night sky in Death Valley National Park was awe-inspiring!",
+    "rating": 4.8,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bb5",
+    "review": "I was disappointed with The Star Gazer tour. The guides lacked knowledge about astronomy and couldn't answer basic questions.",
+    "rating": 2.7,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bb6",
+    "review": "The Star Gazer tour was a surreal experience. Natural Bridges National Monument showcased the wonders of the night sky!",
+    "rating": 4.9,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bb7",
+    "review": "I had mixed feelings about The Star Gazer tour. Horseshoe Bend location had light pollution, impacting stargazing quality.",
+    "rating": 3.5,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c2970"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bb8",
+    "review": "The Star Gazer tour was an unforgettable journey. Exploring Death Valley National Park at night was a surreal experience!",
+    "rating": 4.7,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c2970"
+  }
+]
+
+//The Northern Lights
+[
+  {
+    "_id": "5c8a5e201b4eaf232c960bb9",
+    "review": "The Northern Lights tour was a dream come true! Yellowknife provided the perfect backdrop for an enchanting display of lights.",
+    "rating": 4.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bba",
+    "review": "Unfortunately, The Northern Lights tour didn't live up to my expectations. The weather was cloudy, and we couldn't see much of the lights.",
+    "rating": 2.8,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bbb",
+    "review": "The Northern Lights tour was a magical experience. Witnessing the dancing lights in the night sky was absolutely breathtaking!",
+    "rating": 4.8,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bbc",
+    "review": "I was disappointed with The Northern Lights tour. The guides lacked knowledge about the lights and couldn't provide informative explanations.",
+    "rating": 3.2,
+    "user": "646fff832ef152cff83cd4f3",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bbd",
+    "review": "The Northern Lights tour was an otherworldly experience. Yellowknife's dark sky allowed us to witness the lights in all their glory!",
+    "rating": 4.9,
+    "user": "646fff8b2ef152cff83cd4f5",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bbe",
+    "review": "I had mixed feelings about The Northern Lights tour. We saw glimpses of the lights, but they weren't as vibrant as I had hoped.",
+    "rating": 3.6,
+    "user": "646fffba2ef152cff83cd4ff",
+    "tour": "5c88fa8cf4afda39709c2974"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bbf",
+    "review": "The Northern Lights tour was a once-in-a-lifetime experience. Yellowknife's clear skies offered a spectacular display of colors!",
+    "rating": 4.7,
+    "user": "646fffc42ef152cff83cd501",
+    "tour": "5c88fa8cf4afda39709c2974"
+  }
+]
+
+//The Wine Taster
+[
+  {
+    "_id": "5c8a5e201b4eaf232c960bc0",
+    "review": "The Wine Taster tour exceeded my expectations! The scenic vineyards, exclusive tastings, and knowledgeable guides made it unforgettable.",
+    "rating": 4.9,
+    "user": "646fffcd2ef152cff83cd503",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bc1",
+    "review": "I was disappointed with The Wine Taster tour. The wine selection was average, and the guides seemed disinterested.",
+    "rating": 3.2,
+    "user": "646fffef2ef152cff83cd505",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bc2",
+    "review": "The Wine Taster tour was a fantastic experience! The breathtaking views, exquisite wines, and friendly guides made it truly memorable.",
+    "rating": 4.8,
+    "user": "647000012ef152cff83cd509",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bc3",
+    "review": "Unfortunately, The Wine Taster tour didn't live up to my expectations. The tasting rooms were crowded, and the wines were overpriced.",
+    "rating": 2.7,
+    "user": "6470004e2ef152cff83cd50e",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bc4",
+    "review": "The Wine Taster tour was an incredible experience. The vineyards' beauty and the flavors of the wines left a lasting impression.",
+    "rating": 4.9,
+    "user": "646fff202ef152cff83cd4e7",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bc5",
+    "review": "I had mixed feelings about The Wine Taster tour. Some vineyards were amazing, while others lacked charm and offered mediocre wines.",
+    "rating": 3.5,
+    "user": "646fff502ef152cff83cd4e9",
+    "tour": "5c88fa8cf4afda39709c296c"
+  },
+  {
+    "_id": "5c8a5e201b4eaf232c960bc6",
+    "review": "The Wine Taster tour was an exquisite journey through the world of wines. The vineyards and tastings were simply unforgettable!",
+    "rating": 4.7,
+    "user": "646fff5d2ef152cff83cd4eb",
+    "tour": "5c88fa8cf4afda39709c296c"
+  }
+]
