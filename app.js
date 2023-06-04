@@ -26,7 +26,10 @@ const app = express();
 // Cors
 app.use(
   cors({
-    origin: ['http://localhost:8000', 'http://localhost:3000'],
+    origin: [
+      'https://bored-gold-wombat.cyclic.app',
+      'https://next-tour-kappa.vercel.app',
+    ],
     credentials: true,
   })
 );
