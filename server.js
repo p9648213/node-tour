@@ -20,7 +20,7 @@ mongoose
   .then(() => {
     console.log('Mongodb is connected');
     const port = process.env.PORT || 3000;
-    const server = app.listen(port, 'next-tour.zeabur.app', () => {
+    const server = app.listen(port, 'localhost', () => {
       console.log(`App running on port ${port}...`);
     });
 
