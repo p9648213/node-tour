@@ -26,7 +26,11 @@ const app = express();
 // Cors
 app.use(
   cors({
-    origin: ['https://next-tour-kappa.vercel.app'],
+    origin: [
+      'https://next-tour-kappa.vercel.app',
+      'https://next-tour-git-master-lvp3795.vercel.app',
+      'next-tour-lpshxfptq-lvp3795.vercel.app',
+    ],
     credentials: true,
   })
 );
