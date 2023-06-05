@@ -30,10 +30,6 @@ app.use(
     credentials: true,
   })
 );
-// app.use(cors());
-
-//Serving static file
-app.use(express.static(path.join(__dirname, 'public')));
 
 //Set security HTTP header
 app.use(helmet.contentSecurityPolicy());

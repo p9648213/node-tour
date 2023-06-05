@@ -4,6 +4,7 @@ const Tour = require('../models/tourModel');
 const catchAsync = require('../utils/catchAsync');
 const AppError = require('../utils/appError');
 const factory = require('./handlerFactory');
+const { uploadToCloudinaryBuffer } = require('../utils/cloudinary');
 
 const multerStorage = multer.memoryStorage();
 
@@ -31,27 +32,29 @@ const resizeTourImages = catchAsync(async (req, res, next) => {
   }
 
   //1) Cover Image
-  const imageCoverFilename = `tour-${req.params.id}-${Date.now()}-cover.webp`;
-  await sharp(req.files.imageCover[0].buffer)
+  const imageCover = await sharp(req.files.imageCover[0].buffer)
     .resize(2000, 1333)
     .toFormat('webp')
     .jpeg({ quality: 90 })
-    .toFile(`public/img/tours/${imageCoverFilename}`);
-  req.body.imageCover = imageCoverFilename;
+    .toBuffer();
+
+  const publicId = `tour-imagecover-${req.params.id}`;
+
+  req.body.imageCover = await uploadToCloudinaryBuffer(imageCover, publicId);
 
   //2) Tour Images
   req.body.images = [];
   await Promise.all(
     req.files.images.map(async (file, i) => {
-      const filename = `tour-${req.params.id}-${Date.now()}-${i + 1}.webp`;
-
-      await sharp(file.buffer)
+      const tourImage = await sharp(file.buffer)
         .resize(2000, 1333)
         .toFormat('webp')
         .jpeg({ quality: 90 })
-        .toFile(`public/img/tours/${filename}`);
+        .toBuffer();
 
-      req.body.images.push(filename);
+      const publicId = `tour-image-${i}-${req.params.id}`;
+
+      req.body.images.push(await uploadToCloudinaryBuffer(tourImage, publicId));
     })
   );
 

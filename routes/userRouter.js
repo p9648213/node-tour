@@ -37,7 +37,6 @@ router.use(protect);
 router.patch('/updatePassword', updatePassword);
 router.get('/me', getMe, getUser);
 router.patch('/updateMe', uploadUserPhoto, resizeUserPhoto, updateMe);
-// router.patch('/updateMe', updateMe);
 router.delete('/deleteMe', deleteMe);
 
 //Protect all routes after this from users that is not admin
