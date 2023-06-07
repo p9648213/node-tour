@@ -5,7 +5,6 @@ const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
 const hpp = require('hpp');
-const path = require('path');
 const cors = require('cors');
 const cookieParser = require('cookie-parser');
 const compression = require('compression');
@@ -24,14 +23,20 @@ const app = express();
 //1)Global Middleware
 
 // Cors
+const whitelist = [
+  'https://next-tour-kappa.vercel.app',
+  'https://next-tour-git-master-lvp3795.vercel.app',
+];
+
 app.use(
   cors({
-    origin: [
-      'https://next-tour-kappa.vercel.app',
-      'https://next-tour-git-master-lvp3795.vercel.app',
-      'next-tour-lpshxfptq-lvp3795.vercel.app',
-    ],
-    credentials: true,
+    origin: function (origin, callback) {
+      if (whitelist.indexOf(origin) !== -1 || !origin) {
+        callback(null, true);
+      } else {
+        callback(new AppError(`${origin} not allowed by CORS`, 403));
+      }
+    },
   })
 );
 
