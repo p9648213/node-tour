@@ -73,6 +73,7 @@ exports.getAll = (Model) =>
   catchAsync(async (req, res) => {
     // To allow for nested Get reviews on tour
     let filter = {};
+
     if (req.params.tourId) {
       filter = { tour: req.params.tourId };
     }
@@ -81,21 +82,29 @@ exports.getAll = (Model) =>
     const features = new APIFeatures(Model.find(filter), req.query)
       .filter()
       .sort()
-      .limitFields()
-      .paginate();
-
-    // Clone the query object to preserve the original query
-    const countQuery = new APIFeatures(Model.find(filter), req.query)
-      .filter()
-      .sort()
       .limitFields();
 
-    // Get the total number of documents after filter and sort
-    const totalDocsBeforePaginate = await countQuery.query.countDocuments();
+    // Clone the query object to preserve the original query
+    const countQuery = features.query.clone();
 
-    // Examise the read status
-    // const doc = await features.query.explain();
-    const doc = await features.query;
+    // Get the total number of documents after filter and sort
+    const totalDocsBeforePaginate = await countQuery.countDocuments();
+
+    let limit = parseInt(req.query.limit);
+
+    let doc = [];
+
+    if (req.query.limit && !isNaN(limit)) {
+      if (totalDocsBeforePaginate > 0) {
+        if (totalDocsBeforePaginate <= limit) {
+          doc = await features.query;
+        } else {
+          doc = await features.paginate().query;
+        }
+      }
+    } else {
+      doc = await features.paginate().query;
+    }
 
     //SEND RESPONSE
     res.status(200).json({
